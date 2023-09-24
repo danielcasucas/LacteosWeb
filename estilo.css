@@ -1,0 +1,121 @@
+	
+@media (min-width: 1200px)	{
+		.titulaco {
+					  text-align: center;
+					  border: none;
+					}
+					
+		header {
+			text-align: right;
+			background-color: #98bf21;
+			padding: 1em;
+			
+				}
+		
+#menu, #contenido, #info {
+		float: left;
+		padding: 0;
+		margin: 0;
+        }
+		
+#menu {width: 20%;}
+#contenido, #info {width: 40%;}
+#pie {clear: both;
+	text-align: center;
+	}
+		
+		
+		.menuvertical a {   /* Aquí es donde ponemos características de la lista en vertical. */
+			display: block;
+			width: 120px;
+			color: #FFFFFF;
+			background-color: #98bf21;
+			text-align: center;
+			padding: 4px;
+		}
+		
+		.menuvertical a:hover,.menuvertical a:active {  /* Aquí es donde resaltamos al pasar el cursor por encima. */
+			background-color: #7A991A;
+		}
+
+		
+		h1, h3 {
+			font-family: Arial, Helvetica; 
+			color: #2471A3;
+			font-family: 4em;
+			}
+		
+		
+		body { background-color: ;  /* Color de relleno del fondo. */
+				margin: 12px;
+			}
+		
+		p {
+			font-family: Arial; 
+			text-indent: 1cm;  /* Sangría. */
+			white-space: pre  /* Con esto podemos separar en líneas el texto de los párrafos y respetar los espacios. */
+			}
+		
+}		
+
+/* 2º PARTE DEL CÓDIGO, SE DIVIDE EN DOS POR EL DISEÑO ADAPTABLE. */
+
+
+@media (min-width: 800px)	and		(max-width: 1199px) {
+			.titulaco {
+					  text-align: center;
+					  border: none;
+					}
+					
+		header {
+			text-align: right;
+			background: #696;
+			padding: 1em;
+			
+				}
+
+#menu, #contenido, #info {
+		float: left;
+		padding: 0;
+		margin: 0;
+        }
+		
+#menu {width: 20%;}
+#contenido, #info {margin-left: 25%;}
+#pie {clear: both;
+	  text-align: center;
+	 }
+
+		
+		.menuvertical a {   /* Aquí es donde ponemos características de la lista en vertical. */
+			display: block;
+			width: 120px;
+			color: #FFFFFF;
+			background-color: #98bf21;
+			text-align: center;
+			padding: 4px;
+		}
+		
+		.menuvertical a:hover,.menuvertical a:active {  /* Aquí es donde resaltamos al pasar el cursor por encima. */
+			background-color: #7A991A;
+		}
+
+		
+		h1, h3 {
+			font-family: Arial, Helvetica; 
+			color: #2471A3;
+			font-family: 4em;
+			}
+		
+		
+		body { background-color: ;  /* Color de relleno del fondo. */
+				margin: 12px;
+			}
+		
+		p {
+			font-family: Arial; 
+			text-indent: 1cm;  /* Sangría. */
+			white-space: pre  /* Con esto podemos separar en líneas el texto de los párrafos y respetar los espacios. */
+			}
+
+}
